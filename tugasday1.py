@@ -10,7 +10,9 @@ makanan_ratu = "bakso"
 harga_makanan_ratu = 15000
 selisih_harga = harga_makanan_ratu - harga_makanan_raja
 waktu_tersisa = 5 # dalam menit
-raja_beli_air = True
+raja_haus = True
+raja_punya_uang = True
+raja_beli_air = raja_haus and raja_punya_uang
 
 
 
@@ -21,8 +23,8 @@ print(f"Raja: Berapa harga {makanan_ratu}mu?")
 print(f"Ratu: {harga_makanan_ratu}, dan {makanan_raja}mu?")
 print(f"Raja: Mahal sekali, {makanan_raja}ku aja cuma {harga_makanan_raja}")
 input(f"Ratu: berarti selisih berapa makanan kita?")
-print(f"Raja: 5000, by the way aku mau beli air dulu")
-print(f"Ratu: okee")
+print(f"Raja: 5000, by the way aku mau beli air dulu,aku haus")
+print(f"Ratu: oke, aku tunggu disini")
 
 selisih = input ("berapakah selisih harga makanan raja dan ratu?")
 
