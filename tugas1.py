@@ -35,3 +35,10 @@ porsi = int(input("Berapa porsi yang disuguhkan setiap tamu?"))
 print (tamu * porsi)
 
 print ("Kelinci hitam : Baiklah, kita sudah punya semua informasi yang kita butuhkan untuk acara kita!")
+
+print("Nah, dialog tersebut maka dapat diketahui jumlah tokoh tersebut berjumlah?")
+a = int(input("Masukan angka : "))
+if a == 2:
+ print("iya, tokoh pada dialog tersebut berjumlah 2")
+else:
+    print("bukan, seharusnya tokoh pada dialog tersebut berjumlah 2")
